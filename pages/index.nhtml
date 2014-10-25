@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NodeJs server</title>
+		<link rel="stylesheet" href="/resources/css/site.css" />
+		<script type="text/javascript" src="/resources/js/site.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="container">
+				<h1>{{title}}</h1>
+				<p>
+					{{message}}
+					<button type="button" onclick="testButton()">Click me!</button>
+				</p>
+				
+				<h2>Get parameters</h2>
+				<ul>
+				{{#each getParams}}
+					<li>{{name}} = {{value}}</li>
+				{{/each}}
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
