@@ -1,0 +1,83 @@
+/*
+ * ---------------------------------------------------------------------------
+ *
+ *                         Optimised RESS solution
+ *                        jonathan.heron@bluecube.ie
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * This mixin is used to output media queries for each of our target device profiles.
+ * Example:
+ *         @include respond-to(desktop) {
+ *           font-size:      16px;
+ *         }
+ *
+ * Note that the current possible options for respond-to are desktop|smartphone
+ * and there is a matching top-level scss file for each, in which a @deviceprofile
+ * variable is set to match. The $deviceprofile variable is used to restrict
+ * what code gets output into the final CSS file.
+ *
+ * The intended use case is to have a desktop (ie. desktop) stylesheet
+ * encompass all of the style necessary to have a responsive layout, while smaller
+ * devices are sent a stylesheet that excludes styles within media queries that
+ * will never be used (ie. styles for large screens). Server-side device
+ * detection should be used to determine which CSS file is loaded.
+
+ * This approach assumes the developer is coding in a mobile-first responsive
+ * manner, which will keep the amount of logic to a minimum in the file.
+ *
+ * The mixin can either (A) be used nested within any given style, or
+ * (B) all styles for a given media query can be grouped together at one
+ * point in the CSS.
+ *
+ * Approach (A) is easier and faster to coding. However, it leaves numerous
+ * duplicate media queries littered throughout the document, which increases
+ * file size. I suspect however that gzip compression minimises the impact on
+ * data size that's transfered to the device.
+ *
+ * Approach (B) is more time consuming to code, but much DRYer.
+ *
+*/
+/* line 4, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#any {
+  visibility: visible; }
+
+/* line 8, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#any2x {
+  visibility: hidden; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) {
+    /* line 8, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+    #any2x {
+      visibility: visible; } }
+
+/* line 15, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#medium {
+  visibility: hidden; }
+  @media only screen and (min-width: 500px) {
+    /* line 15, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+    #medium {
+      visibility: visible; } }
+
+/* line 22, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#mediumandup2x {
+  visibility: hidden; }
+  @media only screen and (min-width: 500px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 500px) and (min-resolution: 192dpi) {
+    /* line 22, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+    #mediumandup2x {
+      visibility: visible; } }
+
+/* line 29, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#large {
+  visibility: hidden; }
+  @media only screen and (min-width: 780px), screen and (device-height: 1024px) and (orientation: landscape) {
+    /* line 29, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+    #large {
+      visibility: visible; } }
+
+/* line 36, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+#largeandup2x {
+  visibility: hidden; }
+  @media only screen and (min-width: 780px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 780px) and (min-resolution: 192dpi), screen and (device-height: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2), screen and (device-height: 1024px) and (orientation: landscape) and (min-resolution: 192dpi) {
+    /* line 36, /Users/erohan/Development/Topline/Topline Website/source/css/optimised-ress-test.scss */
+    #largeandup2x {
+      visibility: visible; } }

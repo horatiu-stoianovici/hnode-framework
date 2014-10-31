@@ -1,4 +1,4 @@
 {
-	"staticResources": ["resources", "favicon.ico"],
+	"staticResources": ["resources", "favicon.ico", "css", "images", "img", "js"],
 	"connectionString":	"mongodb://localhost:27017/topline"
 }

@@ -5,9 +5,9 @@ module.exports.insertCategories = function(categories, db, callback){
 	});
 }
 
-module.exports.getCategories = function(db, callback){
+module.exports.getCategories = function(db, searchArgs, callback){
 	var collection = db.collection('categories');
-	collection.find({}).toArray(function(err, docs) {
+	collection.find(searchArgs ? searchArgs : {}).toArray(function(err, docs) {
 		if(docs){
 			callback(err, docs);
 		}

@@ -1,0 +1,32 @@
+{
+  "name": "hnode",
+  "version": "0.0.0",
+  "description": "A web server framework built on top of nodejs.",
+  "main": "server.js",
+  "dependencies": {
+    "handlebars": "~2.0.0",
+    "mongodb": "~1.4.19",
+    "uglify-js": "~2.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horatiu-stoianovici/topline-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "nodejs",
+    "web",
+    "framework"
+  ],
+  "author": "Horatiu Stoianovici",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/horatiu-stoianovici/topline-node-server/issues"
+  }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head id="Head">
+    <!--**********************************************************************************-->
+    <!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+    <!-- Copyright (c) 2002-2013                                                          -->
+    <!-- by DotNetNuke Corporation                                                        -->
+    <!--**********************************************************************************-->
+    <title>
+        {{__section.title}}
+    </title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="text/javascript" http-equiv="Content-Script-Type" />
+    <meta content="text/css" http-equiv="Content-Style-Type" />
+    <meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" />
+    <meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2014 by DotNetNuke Corporation" />
+    <meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " />
+    <meta id="MetaAuthor" name="AUTHOR" content="Topline" />
+    <meta name="RESOURCE-TYPE" content="DOCUMENT" />
+    <meta name="DISTRIBUTION" content="GLOBAL" />
+    <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="REVISIT-AFTER" content="1 DAYS" />
+    <meta name="RATING" content="GENERAL" />
+    <meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+    <script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=119" type="text/javascript"></script>
+    <script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=119" type="text/javascript"></script>
+    <meta name="og:url" content="http://www.topline.ie/tools-and-hardware/power-tools/drills-and-drivers/makita-cordless-combi-drill-18v-dhp453sye" />
+    <meta name="og:image" content="http://www.topline.ie/images/ProductImages/0088381658225.jpg" />\
+    <link href="https://plus.google.com/+toplinehardware" rel="publisher" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/print.css" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <link href="/css/large-screen-corporate.css" media="screen" type="text/css" rel="stylesheet"></link>
+    <script language="javascript" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxOHt2FYLd11sD5sQw6yOp84VW8I4vGPA&amp;sensor=false&amp;v=3&amp;libraries=geometry"></script>
+    <script language="javascript" type="text/javascript" src="/js/early-load.js"></script>
+    <script>
+
+        {{{__section.headTags}}}
+
+    var metas = document.getElementsByTagName("meta");
+    var i;
+    if (navigator.userAgent.match(/iPhone/i)) {
+        for (i = 0; i < metas.length; i++) {
+            if (metas[i].name == "viewport") {
+                metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+            }
+        }
+        document.addEventListener("gesturestart", gestureStart, false);
+    }
+
+    function gestureStart() {
+        for (i = 0; i < metas.length; i++) {
+            if (metas[i].name == "viewport") {
+                metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+            }
+        }
+    }
+    </script>
+    <script type="text/javascript" src="//use.typekit.net/nll2zwx.js"></script>
+    <script type="text/javascript">
+    try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+    <link href="http://fonts.googleapis.com/css?family=Just+Another+Hand" media="screen" type="text/css" rel="stylesheet"></link>
+    <link rel="shortcut icon" href="/favicon.ico"></link>
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></link>
+</head>
+
+<body id="Body" class="corporate_site corporate cookiebanner">
+    <header>
+        <div class="page-top">
+
+            <div id="logo-container">
+                <a href="/">
+                    <img src="/img/logos/topline-logo-white.png" alt="">
+                    <!-- Replaced with topline-murtaghs-logo.svg is browser supports it -->
+                </a>
+            </div>
+
+            <div class="search-form hidden">
+
+                <div id="searchform">
+                    <!-- Search form used requently throughout the Corporate and Member site -->
+                    <input type="text" placeholder="Search" class="search-rounded-left" id="searchInput" autocomplete="off" />
+                    <input type="submit" value="" class="search-button search-rounded-right" id="searchSubmitButton" />
+                </div>
+            </div>
+            <nav id="corporate-main-nav" class="corporate">
+
+                <ul class="hidden">
+                    <li class="temp-hide-for-small">
+                        <a href="/store-locator">Store Locator
+                        </a>
+                    </li>
+                    <li class="temp-hide-for-small" id="department-popover">
+                        <a href="#" class="department-popover-link" rel="popover" data-content="Departments Content">Departments</a>
+                        <div class="departments-popover-content">
+                            {{#each categories}}
+                                <div class="department-item">
+                                    <a href="/appliances">
+                                        <img src="/images/categoryimages/560x220/categoryimage_2843_appliances.jpg?width=170&height=65" class="department-image">
+
+                                        <span>{{Category}}</span>
+                                    </a>
+                                </div>
+                            {{/each}}
+
+                            <div class="clear"></div>
+                        </div>
+                    </li>
+
+                    <li class="temp-hide-for-small">
+                        <a href="/how-to-guides-and-project-ideas">How To's &amp; Project Ideas
+                        </a>
+                    </li>
+                    <li class="temp-hide-for-small">
+                        <a href="/contact-us">Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="menu-buttons ">
+                    <div class="menu-button menu-toggle ">
+                        <a href="#"></a>
+                    </div>
+                    <div class="menu-button search-ico">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </nav>
+            <!-- close #main-nav -->
+        </div>
+        <!-- .page-top-->
+        <div id="mobile-search" class="hidden search">
+            <!-- Search form used requently throughout the Corporate and Member site -->
+
+            <div id="mobilesearchform">
+                <input type="text" id="mobilesearch" placeholder="Search" class="search-rounded-left" autocomplete="off" />
+                <input type="submit" value="" class="search-button search-rounded-right" id="mobilesearchButton" />
+            </div>
+        </div>
+
+
+
+        <nav id="main-nav-overflow" class="hidden">
+            <ul>
+                {{#each categories}}
+                    <li class="department-link" data-name="{{Name}}">
+                        <a href="/appliances" data-name="{{Name}}">
+                            {{Name}}
+                        </a>
+                        <div class="mega-menu hidden" data-name="{{Name}}">
+                        </div>
+                    </li>
+                {{/each}}
+
+
+                <!-- Extra Links -->
+                <li class="department-link nav-break"></li>
+
+                <li class="department-link extra-links"><a href="/store-locator">Store Locator</a>
+                </li>
+                <!--   <li class="department-link extra-links"><a href="#">Departments</a></li> -->
+                <li class="department-link extra-links"><a href="/how-to-guides-and-project-ideas">How To's & Project Ideas</a>
+                </li>
+                <li class="department-link extra-links"><a href="/contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- close #main-nav-overflow -->
+
+
+    </header>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="corporate-content">
+                {{{__content}}}
+            </div>
+        </div>
+    </div>
+    <a id="footer"></a>
+    <footer>
+        <div class="container ">
+            <div class="footer-column mobile-column contact">
+                <h4>Contact Us</h4>
+                <p>
+                    Naas Industrial Estate,
+                    <br>Naas,
+                    <br>Co. Kildare
+                </p>
+                <p>&copy; Topline 2014</p>
+            </div>
+            <div class="footer-column more">
+                <nav id="footer-more">
+                    <h4>More</h4>
+                    <ul>
+
+                        <li><a href="/TermsConditions" title="Terms & Conditions">Terms &amp; Conditions</a>
+                        </li>
+
+                        <li><a href="/PrivacyPolicy" title="Privacy Policy">Privacy Policy</a>
+                        </li>
+
+                        <li><a href="/sitemap.xml" title="Sitemap">Sitemap</a>
+                        </li>
+                        <li><a href="/how-to-guides-and-project-ideas" title="How To's &amp; Project Ideas">How To Guides</a>
+                        </li>
+
+
+
+
+                    </ul>
+                </nav>
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.facebook.com/ToplineDIY" target="_blank">
+                            <img src="/img/icons/sharing-facebook.gif">Like us on Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ToplineDIY" target="_blank">
+                            <img src="/img/icons/sharing-twitter.gif">Follow us on Twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://www.pinterest.com/toplinediy/" target="_blank">
+                            <img src="/img/icons/sharing-pinterest.gif">Find us on Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column multi-list wide">
+                <nav id="footer-departments">
+                    <h4>Departments</h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="/appliances" title="Appliances">Appliances</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/building-supplies" title="Building Supplies">Building Supplies</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/cleaning-and-storage" title="Cleaning & Storage">Cleaning &amp; Storage</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/garden-and-outdoors" title="Garden & Outdoors">Garden &amp; Outdoors</a>
+                        </li>
+                    </ul>
+                    <ul>
+
+                        <li>
+
+                            <a href="/home-decor" title="Home Décor">Home Décor</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/kitchen-and-bathroom" title="Kitchen & Bathroom">Kitchen &amp; Bathroom</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/lighting" title="Lighting">Lighting</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/plumbing-and-heating" title="Plumbing & Heating">Plumbing &amp; Heating</a>
+                        </li>
+                    </ul>
+                    <ul>
+
+                        <li>
+
+                            <a href="/tools-and-hardware" title="Tools & Hardware">Tools &amp; Hardware</a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="/windows-doors-and-floors" title="Windows, Doors & Floors">Windows, Doors &amp; Floors</a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="/js/site-corporate.js"></script>
+    <script type="text/javascript" src="/js/site-corporate-extra.js"></script>
+
+    <script type="text/javascript" src="/js/email-share-list.js"></script>
+    <script type="text/javascript" src="/js/corporate-site-home.js"></script>
+
+
+    <script>
+    $('#temp-corp-nav-more').click(function() {
+        $('#temp-corp-nav-overflow').toggle();
+    });
+    </script>
+
+
+    <script type="text/javascript" src="/js/eirtight/algolia-search.js"></script>
+    <script src="/Js/Eirtight/FullSearch.aspx" type="text/javascript"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('.department-item img').unbind('error');
+        $('.department-item img').error(function(e) {
+            $(this).attr('src', "http://placehold.it/186x94&text=No%20Image");
+            return true;
+        });
+
+        $('.department-image').unbind('error');
+        $('.department-image').error(function(e) {
+            $(this).attr('src', "http://placehold.it/186x94&text=No%20Image");
+            return true;
+        });
+
+        var search1 = new Search({
+            brands: true,
+            categories: true,
+            howTos: true,
+            members: true,
+            products: true,
+            projectIdeas: true,
+            liveOrAll: 'live',
+            inputElement: '#searchInput',
+            offsetX: -120
+        });
+
+        var search2 = new Search({
+            brands: true,
+            categories: true,
+            howTos: true,
+            members: true,
+            products: true,
+            projectIdeas: true,
+            liveOrAll: 'live',
+            inputElement: '#mobilesearch',
+            offsetX: 115
+        });
+
+        function submittedSearchForm(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            if ($('#searchInput').val()) {
+                window.location = '/searchresults?q=' + encodeURIComponent($('#searchInput').val());
+            }
+        }
+
+        function submittedMobileSearchForm(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            if ($('#mobilesearch').val()) {
+                window.location = '/searchresults?q=' + encodeURIComponent($('#mobilesearch').val());
+            }
+        }
+
+        $('#searchInput').keypress(function(e) {
+            if (e.which == 13) {
+                submittedSearchForm(e);
+            }
+        });
+        $('#searchSubmitButton').click(function(e) {
+            submittedSearchForm(e);
+        });
+
+        $('#mobilesearch').keypress(function(e) {
+            if (e.which == 13) {
+                submittedMobileSearchForm(e);
+            }
+        });
+        $('#mobilesearchButton').click(function(e) {
+            submittedMobileSearchForm(e);
+        });
+        //$('#searchform,#mobilesearchform').submit(function (e) {
+        //    e.preventDefault();
+        //    e.stopPropagation();
+        //    if ($('#searchInput').val()) {
+        //        window.location = window.location.origin + '/searchresults?q=' + encodeURIComponent($('#searchInput').val());
+        //    }
+        //    else if ($('#mobilesearch').val()) {
+        //        window.location = window.location.origin + '/searchresults?q=' + encodeURIComponent($('#mobilesearch').val());
+        //    }
+        //});
+
+
+        var resultFunction = function(resultType, resultObj) {
+            switch (resultType) {
+                case 'brand':
+                    window.location = '/BrandResults.aspx?BrandID=' + resultObj.objectID;
+                    break;
+
+                case 'category':
+                    window.location = resultObj.Url; // TODO: window.location = window.location.origin + resultObj.Url
+                    break;
+
+                case 'howTo':
+                    window.location = resultObj.Url; // TODO: window.location = window.location.origin + resultObj.Url
+                    break;
+
+                case 'member':
+                    window.location = '/store-locator?memberId=' + resultObj.objectID;
+                    break;
+
+                case 'product':
+                    window.location = resultObj.Url; //'/ProductDetail.aspx?ContentItemId=' + resultObj.objectID;
+                    break;
+
+                case 'projectIdea':
+                    window.location = resultObj.Url; // TODO: window.location = window.location.origin + resultObj.Url
+                    break;
+            }
+        }
+
+        search1.onResultClick(resultFunction);
+        search2.onResultClick(resultFunction);
+    });
+    </script>
+
+</body>
+
+</html>

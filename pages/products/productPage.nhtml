@@ -1,0 +1,281 @@
+{{{skin '../skins/corporateSiteSkin'}}}
+
+{{#section 'headerTags'}}
+    <script type="text/javascript">
+        alert('Merg sections-urile!');
+    </script>
+{{/section}}
+
+{{#section 'title'}}
+    {{product.Brand}} {{product.SubBrand}} {{product.ProductName}}
+{{/section}}
+
+<div class="panel page-content-wrap">
+
+    
+        <ul id="breadcrumb">
+            
+        <li><a href="/">Home</a></li>
+    
+        <li><a href="/products">Products</a></li>
+    
+        <li><a href="/tools-and-hardware">Tools & Hardware</a></li>
+    
+        <li><a href="/tools-and-hardware/power-tools">Power Tools</a></li>
+    
+        <li><a href="/tools-and-hardware/power-tools/drills-and-drivers">Drills & Drivers</a></li>
+    
+        <li><a href="/tools-and-hardware/power-tools/drills-and-drivers/makita-cordless-combi-drill-18v-dhp453sye">Makita  Cordless Combi Drill 18V - DHP453SYE</a></li>
+    
+        </ul>
+
+    <section id="product-wrap">
+
+        <div id="mobile-details-list" class="details-list">
+            <h2>{{product.Brand}} {{product.SubBrand}} {{product.ProductName}}</h2>
+
+            
+            <p class="price">
+                &euro;199.<span class="sup">00</span>
+                
+                <span class="was-price">RRP &euro;279.00</span>
+                
+            </p>
+            <a href="/store-locator?stockingOffer=1" class="button secondary-dark"><span class="get-directions">Find stores near you participating in this sale</span></a>
+             
+        </div>
+
+        <div id="product-image" >
+
+            
+                <div class="product-image-wrap">
+                    
+                    <img src="http://www.web4print.com/imagelib/toplineflash/out/28565.png" alt="" class="promo-flash">
+
+                    
+
+                    <img src="/images/productimages/{{product.Image}}?width=497&height=497&trim.threshold=80&trim.percentpadding=1" data-zoom-image="/images/productimages/{{product.Image}}?width=1000&height=1000" alt="{{product.Brand}} {{product.SubBrand}} {{product.ProductName}}" id="zoom" />
+                </div>
+                <a href="/images/productimages/{{product.Image}}?width=1000&height=1000&trim.threshold=80&trim.percentpadding=1" id="view-larger-image">View larger image</a>
+
+
+                
+            </div>
+            <section id="product-details">
+                <div class="details-list">
+                    <h2>{{product.Brand}} {{product.SubBrand}} {{product.ProductName}}</h2>
+                    
+                    <!-- <p class="ref-code">WF0704W7W</p> -->
+
+                    
+                    <p class="price">
+                        &euro;199.<span class="sup">00</span>
+                        
+                        <span class="was-price">RRP &euro;279.00</span>
+                        
+                    </p>
+                    <a href="/store-locator?stockingOffer=1" class="button secondary-dark"><span class="get-directions">Find stores near you participating in this sale</span></a>
+                    
+                </div>
+
+                <section id="product-tabs">
+                    <ul class="nav nav-tabs" id="myTab">
+                        <li class="overview active"><a href="#overview-tab">Overview</a></li>
+                        <li class="specification"><a href="#specification-tab">Specifications</a></li>
+                        <li class="share"><a href="#sharing-tab">Share</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="overview-tab">
+                            <section id="overview">
+                                <p>{{product.Description}}</p>
+
+                                <ul class="green-bull">
+                                    <!--TODO-->
+                                    <li>16 pre-selectable torque settings</li>
+                                    
+                                    <li>Drill function</li>
+                                    
+                                    <li>Variable speed</li>
+                                    
+                                    <li>Reverse function</li>
+                                    
+                                </ul>
+
+                                <ul id="product-dimensions">
+                                    
+                                    <li><strong>Weight:</strong> 1.72kg</li>
+                                    
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="tab-pane" id="specification-tab">
+                            <section id="specification">
+                                <ul id="product-features">
+                                    
+                                    <li><strong>Pack Quantity:</strong> 1</li>
+                                    
+                                    <li><strong>Colour:</strong> Green &amp; black</li>
+                                    
+                                    <li><strong>Warranty:</strong> 3 years</li>
+                                    
+                                    <li><strong>Safety Cut Out:</strong> No</li>
+                                    
+                                    <li><strong>Volts:</strong> 18V</li>
+                                    
+                                    <li><strong>Charger Included:</strong> Yes</li>
+                                    
+                                    <li><strong>Battery Type:</strong> 2 x 1.5 AH Lithium-ion</li>
+                                    
+                                    <li><strong>Batteries Included:</strong> Yes</li>
+                                    
+                                    <li><strong>Battery Charge Time (min):</strong> 30 minutes</li>
+                                    
+                                    <li><strong>Cordless/Corded:</strong> Cordless</li>
+                                    
+                                    <li><strong>Chuck Type:</strong> Keyless chuck</li>
+                                    
+                                    <li><strong>Case Included:</strong> Yes</li>
+                                    
+                                    <li><strong>Variable Speed:</strong> Yes</li>
+                                    
+                                    <li><strong>No Load Speed (RPM):</strong> 0 - 1300 RPM</li>
+                                    
+                                    <li><strong>Drill Diameter:</strong> 13mm (steel); 13mm (concrete); 36mm (wood)</li>
+                                    
+                                    <li><strong>Max Torque:</strong> 42 Nm</li>
+                                    
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="tab-pane" id="sharing-tab">
+                            <section id="sharing">
+                                <ul class="sharing-list">
+                                    <li class="facebook-link"><a href="#">
+                                        <img src="/img/icons/sharing-facebook-large.png"><span class="link-text">Share on Facebook</span></a></li>
+                                    <li class="twitter-link"><a href="#">
+                                        <img src="/img/icons/sharing-twitter-large.png"><span class="link-text">Share on Twitter</span></a></li>
+                                    <li class="email-link"><a href="#">
+                                        <img src="/img/icons/sharing-email-large.png"><span class="link-text">Share by email</span></a></li>
+                                </ul>
+                                <form class="hidden email-form" id="sharing-form" name="sharing-form">
+                                    <h3>
+                                        <img src="/img/icons/sharing-email-large.png">
+                                        Share by email
+                                    </h3>
+                                    <input type="text" id="email-form-name" placeholder="Your Name" name="name" required>
+                                    <input type="text" id="email-form-email" placeholder="Recipients email address" name="email" required>
+                                    <input type="hidden" name="ContentItemId" value="1fcc3e17-0919-4a7e-980d-d4c601ee92f4" />
+                                    <input type="hidden" name="didSubmitForm" value="true" />
+                                    <a class="secondary-link cancel-email-share" title=" Cancel">Cancel</a>
+                                    <input type="submit" class="button secondary-dark" value="Send" id="sendEmailBtn">
+                                    <script>
+                                        $(function(){
+                                            $('#sendEmailBtn').click(function(e){
+                                                e.preventDefault();
+                                                e.stopPropagation();
+                                                var name = $('#email-form-name').val();
+                                                var email = $('#email-form-email').val();
+                                                if(!name || !email){
+                                                    if(!name){
+                                                        $('#email-form-name').addClass('error');
+                                                    }
+                                                    if(!email){
+                                                        $('#email-form-email').addClass('error');
+                                                    }
+                                                }
+                                                else {
+                                                    $('#email-form-name,#email-form-email').removeClass('error');
+                                                    $('#sendEmailBtn').val('Sending...').attr('disabled', true);
+                                                    $.ajax({
+                                                        url: '/CorporateCMS',
+                                                        data:{
+                                                            view: 'ajax',
+                                                            service: 'sharebyemail',
+                                                            action: 'shareitem',
+                                                            name: name,
+                                                            email: email,
+                                                            itemType: 'product',
+                                                            url: window.location.toString()
+                                                        },
+                                                        success: function(r){
+                                                            if(r.success){
+                                                                $('#sendEmailBtn').val('Sent').attr('disabled', true);
+                                                            }
+                                                            else {
+                                                                $('#sendEmailBtn').val('Error').attr('disabled', true);
+                                                            }
+                                                        }
+                                                    });
+                                                }
+                                            });
+                                        });
+                                    </script>
+                                </form>
+                            </section>
+                        </div>
+
+                    </div>
+                </section>
+            </section>
+    </section>
+
+    <!--TODO-->
+    <section id="similar-products">
+        <h2>You might also be interested in</h2>
+        <div id="similar-products-grid">
+            
+            <div class="product-tile">
+                
+                <a href="/tools-and-hardware/power-tools/drills-and-drivers/bosch-psb-18-li-2-combi-drill-0603958370" class="image-wrap">
+                    
+
+                    <img src="/images/productimages/3165140516976.jpg?width=100&height=101&trim.threshold=80&trim.percentpadding=1" class="product-image" />
+                </a>
+
+                
+                <h4><a href="/tools-and-hardware/power-tools/drills-and-drivers/bosch-psb-18-li-2-combi-drill-0603958370">Bosch  PSB 18 LI-2 Combi Drill - 0603958370</a></h4>
+
+                <!-- <p class="product-code">WF0704W7W</p> -->
+
+                
+                <!-- <p class="summary">Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis...</p> -->
+            </div>
+            
+            <div class="product-tile">
+                
+                <a href="/tools-and-hardware/power-tools/drills-and-drivers/bosch-psb-750-rce-compact-hammer-drill-0603128570" class="image-wrap">
+                    
+
+                    <img src="/images/productimages/3165140512442.jpg?width=100&height=101&trim.threshold=80&trim.percentpadding=1" class="product-image" />
+                </a>
+
+                
+                <h4><a href="/tools-and-hardware/power-tools/drills-and-drivers/bosch-psb-750-rce-compact-hammer-drill-0603128570">Bosch  PSB 750 RCE Compact Hammer Drill - 0603128570</a></h4>
+
+                <!-- <p class="product-code">WF0704W7W</p> -->
+
+                
+                <!-- <p class="summary">Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis...</p> -->
+            </div>
+            
+            <div class="product-tile">
+                
+                <a href="/tools-and-hardware/power-tools/drills-and-drivers/black-and-decker-blepl7igb-compact-drill-driver-7v" class="image-wrap">
+                    
+
+                    <img src="/images/productimages/5035048344392.jpg?width=100&height=101&trim.threshold=80&trim.percentpadding=1" class="product-image" />
+                </a>
+
+                
+                <h4><a href="/tools-and-hardware/power-tools/drills-and-drivers/black-and-decker-blepl7igb-compact-drill-driver-7v">Black and Decker  BLEPL7IGB Compact Drill Driver - 7V</a></h4>
+
+                <!-- <p class="product-code">WF0704W7W</p> -->
+
+                
+                <!-- <p class="summary">Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis...</p> -->
+            </div>
+            
+        </div>
+    </section>
+    
+</div>
